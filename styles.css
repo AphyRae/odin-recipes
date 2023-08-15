@@ -2,15 +2,20 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 
     'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
     Verdana, sans-serif;
+    background-color: plum;
 }
 
 h1, h2, p {
     text-align: center;
 }
 
+h2, li, .ingredients, .steps, .recipe, p {
+    background-color: pink;
+}
+
 .ingredients, .steps {
     display: table;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 img {
@@ -25,5 +30,4 @@ img {
     border-width: 2px;
     border-radius: 25px;
     padding: 15px 25px;
-    background-color: pink;
 }
