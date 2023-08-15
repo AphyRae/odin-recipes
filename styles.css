@@ -6,6 +6,11 @@
     font-size: 24px;
 }
 
+.return {
+    text-align: right;
+    display: block;
+}
+
 h1, h2, p {
     text-align: center;
 }
